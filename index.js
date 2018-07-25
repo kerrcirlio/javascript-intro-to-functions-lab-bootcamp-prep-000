@@ -15,10 +15,11 @@ function logShout(string) {
  }
  
  function sayHiToGrandma(string) {
-
+    if (`${string}`.toLowerCase())
+    {return "I can't hear you!";}
    
-     if (`${string}` .toUpperCase())
-    {return "YES INDEED";}
+    if (`${string}`.toLowerCase())
+    {return "I can't hear you!";}
 
 else if (`${string}`=== "I love u, Grandma.")
   {return "YES INDEED!"}
