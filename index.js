@@ -18,10 +18,10 @@ function logShout(string) {
     if (`${string}`.toLowerCase())
     {return "I can't hear you!";}
    
-    else if (`${string}` .toUpperCase())
+     if (`${string}` .toUpperCase())
     {return "YES INDEED";}
 
-else (`${string}`=== "I love u, Grandma.")
+if (`${string}`=== "I love u, Grandma.")
   {return "YES INDEED!"}
 }
  
