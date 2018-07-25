@@ -23,6 +23,8 @@ function logShout(string) {
     
     else if(`${string}="I love u, grandma."`)
     {return "I love you, too.";}
-}
+
+   else (doNothing())
+ }
  
  
