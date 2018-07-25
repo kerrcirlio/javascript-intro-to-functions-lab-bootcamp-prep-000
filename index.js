@@ -22,7 +22,7 @@ function logShout(string) {
    return "YES INDEED!";}
    
    if (string === "I love u, Grandma.") { 
-     return "I love you, too.";}
+     return "I love you, too."}
    }
  
  
